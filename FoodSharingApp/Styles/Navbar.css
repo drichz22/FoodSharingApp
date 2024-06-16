@@ -1,0 +1,22 @@
+﻿body, html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+.img {
+    width: 60px;
+    height: 50px;
+    margin-right: 70px;
+}
+
+#DonatorView, #ReceiverView, #VolunteerView {
+    display: flex; 
+    align-items: center; 
+}
+
+#DonatorView a, #ReceiverView a, #VolunteerView a {
+    margin-right: 70px;
+    text-decoration: none;
+    color: black;
+}
